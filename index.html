@@ -9,15 +9,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="/assets/css/styles.css">
+<link rel="icon" href="/assets/images/benchmark-icon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/images/benchmark-favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/images/benchmark-favicon-180.png">
 
 </head>
 <body>
   <a class="skip" href="#main">Skip to main content</a>
-
+ 
   <header class="site">
     <div class="wrap">
-      <a class="brand" href="#top">Benchmark <span>Accessibility</span></a>
-      <nav class="primary" aria-label="Primary">
+      <a class="brand" href="#top"><img src="/assets/images/benchmark-logo-horizontal-reverse-nb.svg" alt="Benchmark Accessibility"></a>
+      <nav class="primary primary-desktop" aria-label="Primary">
         <ul>
           <li><a href="#services">Services</a></li>
           <li><a href="#process">How it works</a></li>
@@ -25,21 +28,35 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      <details class="nav-toggle">
+        <summary class="nav-toggle-btn" aria-label="Menu"><span class="hamburger" aria-hidden="true"></span></summary>
+        <nav class="primary primary-mobile" aria-label="Primary">
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">How it works</a></li>
+            <li><a href="#accessibility">Accessibility</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </details>
     </div>
   </header>
 
   <main id="main">
 
     <section id="top" aria-labelledby="hero-heading">
-      <div class="wrap">
-        <p class="eyebrow">Web accessibility &amp; Drupal engineering</p>
-        <h1 id="hero-heading">Your accessibility problem, handled by someone who's actually done it.</h1>
-        <p class="lead">Section 508 and WCAG conformance isn't a checkbox — it's legal exposure and a promise to every user. <b>I audit it, fix it, and keep it compliant</b>, so your team can ship without becoming accessibility experts overnight.</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="mailto:dean.bowles@gmail.com?subject=Free%2010-minute%20accessibility%20audit&amp;body=Hi%20Dean%2C%20here%27s%20a%20URL%20I%27d%20like%20a%20free%20audit%20of%3A%20">Email me a URL for a free audit</a>
-          <a class="btn btn-ghost" href="#services">See services &amp; pricing</a>
+      <div class="wrap hero-grid">
+        <img class="hero-photo" src="/assets/images/6-w.jpeg" alt="Portrait of Dean Bowles" width="896" height="1088">
+        <div class="hero-copy">
+          <p class="eyebrow">Web accessibility &amp; Drupal engineering</p>
+          <h1 id="hero-heading">Your accessibility problem, handled by someone who's actually done it.</h1>
+          <p class="lead">Section 508 and WCAG conformance isn't a checkbox — it's legal exposure and a promise to every user. <b>I audit it, fix it, and keep it compliant</b>, so your team can ship without becoming accessibility experts overnight.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:dean.bowles@gmail.com?subject=Free%2010-minute%20accessibility%20audit&amp;body=Hi%20Dean%2C%20here%27s%20a%20URL%20I%27d%20like%20a%20free%20audit%20of%3A%20">Email me a URL for a free audit</a>
+            <a class="btn btn-ghost" href="#services">See services &amp; pricing</a>
+          </div>
+          <p class="microcopy">No sales call required. You'll get a recorded 10-minute walkthrough back.</p>
         </div>
-        <p class="microcopy">No sales call required. You'll get a recorded 10-minute walkthrough back.</p>
       </div>
     </section>
 
@@ -111,7 +128,7 @@
         <h2 id="a11y-heading">Accessibility statement</h2>
         <div class="card">
           <p>This site is built to conform to <b>WCAG 2.1 Level AA</b>. It uses semantic HTML landmarks, a visible keyboard focus indicator, a skip link, logical heading structure, text that meets AA contrast in both light and dark modes, and it respects your reduced-motion preference. Try it: navigate this whole page with the <b>Tab</b> key and watch the focus outline.</p>
-          <p>If you encounter any barrier using this site, email <a href="mailto:dean.bowles@gmail.com?subject=Accessibility%20feedback">dean.bowles@gmail.com</a> and I'll fix it promptly. Holding my own site to the standard I sell is the point.</p>
+          <p>If you encounter any barrier using this site, email <a href="mailto:dean@benchmarkaccessibility.com?subject=Accessibility%20feedback">dean.bowles@gmail.com</a> and I'll fix it promptly. Holding my own site to the standard I sell is the point.</p>
         </div>
       </div>
     </section>
@@ -122,9 +139,9 @@
         <h2 id="contact-heading">Send me one URL. I'll send back a free 10-minute audit.</h2>
         <p>No commitment, no sales call required. You'll see exactly what I'd find and how I'd fix it &mdash; then decide if a full engagement makes sense.</p>
         <div class="cta-row">
-          <a class="btn btn-primary" href="mailto:dean.bowles@gmail.com?subject=Free%2010-minute%20accessibility%20audit&amp;body=Hi%20Dean%2C%20here%27s%20a%20URL%20I%27d%20like%20a%20free%20audit%20of%3A%20">Email me a URL for a free audit</a>
+          <a class="btn btn-primary" href="mailto:dean@benchmarkaccessibility.com?subject=Free%2010-minute%20accessibility%20audit&amp;body=Hi%20Dean%2C%20here%27s%20a%20URL%20I%27d%20like%20a%20free%20audit%20of%3A%20">Email me a URL for a free audit</a>
         </div>
-        <p class="direct">Dean Bowles &middot; Benchmark Accessibility<br>Email: <a href="mailto:dean.bowles@gmail.com">dean.bowles@gmail.com</a></p>
+        <p class="direct">Dean Bowles &middot; Benchmark Accessibility<br>Email: <a href="mailto:dean@benchmarkaccessibility.com">dean@benchmarkaccessibility.com</a></p>
       </div>
     </section>
 
